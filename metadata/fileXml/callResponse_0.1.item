@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_mftq8NtKEeK42oz89dlunA" name="callResponse" dataPackage="_mftq9NtKEeK42oz89dlunA" XmlFilePath="C:/Users/Anton/Desktop/makeCall.xml" Encoding="UTF-8">
+    <schema xmi:id="_mftq8dtKEeK42oz89dlunA" LimitBoucle="50" AbsoluteXPathQuery="/callResult">
+      <schemaTargets xmi:id="_mftq8ttKEeK42oz89dlunA" RelativeXPathQuery="status_code" TagName="status_code"/>
+      <schemaTargets xmi:id="_mftq89tKEeK42oz89dlunA" RelativeXPathQuery="status_msg" TagName="status_msg"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mftq9NtKEeK42oz89dlunA" name="default" dataManager="_mftq8NtKEeK42oz89dlunA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mftq9dtKEeK42oz89dlunA" name="metadata" id="_ctNPENtKEeK42oz89dlunA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mfuSANtKEeK42oz89dlunA" name="status_code" label="status_code" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mfuSAdtKEeK42oz89dlunA" name="status_msg" label="status_msg" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

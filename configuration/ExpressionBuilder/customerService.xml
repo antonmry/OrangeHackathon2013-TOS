@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore">
+  <expression:EMFExpression id="null=>out1=>message" expression="row2.message ">
+    <variables name="requestCustomer.MSISDN" value="null" talendType="id_Integer" nullable="true"/>
+    <variables name="row1.MSISDN" value="null" talendType="id_Integer" nullable="true"/>
+    <variables name="row1.latitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row1.longitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row2.name" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row2.latitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row2.longitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row2.notification" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row2.message" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row2.msisdn" value="null" talendType="id_Integer" nullable="true"/>
+  </expression:EMFExpression>
+  <expression:EMFExpression id="null=>row2=>latitude" expression="customCode.distFrom(row1.latitude, row1.longitude, row2.latitude, row2.longitude) ">
+    <variables name="requestCustomer.MSISDN" value="null" talendType="id_Integer" nullable="true"/>
+    <variables name="row1.MSISDN" value="null" talendType="id_Integer" nullable="true"/>
+    <variables name="row1.latitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row1.longitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row2.name" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row2.latitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row2.longitude" value="null" talendType="id_Float" nullable="true"/>
+    <variables name="row2.notification" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row2.message" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row2.msisdn" value="null" talendType="id_Integer" nullable="true"/>
+  </expression:EMFExpression>
+</xmi:XMI>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_GGVPUNnKEeK0b_luIXcC8w" name="statusResponse" dataPackage="_GGV2aNnKEeK0b_luIXcC8w" XmlFilePath="C:/Users/Anton/Desktop/openmiddleware.pl.xml" Encoding="UTF-8">
+    <schema xmi:id="_GGV2YNnKEeK0b_luIXcC8w" LimitBoucle="50" AbsoluteXPathQuery="/tsResponse/Result">
+      <schemaTargets xmi:id="_GGV2YdnKEeK0b_luIXcC8w" RelativeXPathQuery="SuscriberStatus" TagName="SuscriberStatus"/>
+      <schemaTargets xmi:id="_GGV2YtnKEeK0b_luIXcC8w" RelativeXPathQuery="AgeOfLocation" TagName="AgeOfLocation"/>
+      <schemaTargets xmi:id="_GGV2Y9nKEeK0b_luIXcC8w" RelativeXPathQuery="CellIdentity" TagName="CellIdentity"/>
+      <schemaTargets xmi:id="_GGV2ZNnKEeK0b_luIXcC8w" RelativeXPathQuery="LocationAreaCode" TagName="LocationAreaCode"/>
+      <schemaTargets xmi:id="_GGV2ZdnKEeK0b_luIXcC8w" RelativeXPathQuery="MobileCountryCode" TagName="MobileCountryCode"/>
+      <schemaTargets xmi:id="_GGV2ZtnKEeK0b_luIXcC8w" RelativeXPathQuery="MobileNetworkCode" TagName="MobileNetworkCode"/>
+      <schemaTargets xmi:id="_GGV2Z9nKEeK0b_luIXcC8w" RelativeXPathQuery="VLRAddress" TagName="VLRAddress"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GGV2aNnKEeK0b_luIXcC8w" name="default" dataManager="_GGVPUNnKEeK0b_luIXcC8w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GGV2adnKEeK0b_luIXcC8w" name="locationResponse" id="_3ZfAYNnJEeK0b_luIXcC8w" label="locationResponse">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGV2atnKEeK0b_luIXcC8w" name="SuscriberStatus" label="SuscriberStatus" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGV2a9nKEeK0b_luIXcC8w" name="AgeOfLocation" label="AgeOfLocation" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGV2bNnKEeK0b_luIXcC8w" name="CellIdentity" label="CellIdentity" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGWdcNnKEeK0b_luIXcC8w" name="LocationAreaCode" label="LocationAreaCode" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGWdcdnKEeK0b_luIXcC8w" name="MobileCountryCode" label="MobileCountryCode" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGWdctnKEeK0b_luIXcC8w" name="MobileNetworkCode" label="MobileNetworkCode" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GGWdc9nKEeK0b_luIXcC8w" name="VLRAddress" label="VLRAddress" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_Rgt44NnTEeK0b_luIXcC8w" name="balanceResponse" dataPackage="_Rgt45NnTEeK0b_luIXcC8w" JSONFilePath="C:/Users/Anton/Desktop/getBalance.json" Encoding="UTF-8">
+    <schema xmi:id="_Rgt44dnTEeK0b_luIXcC8w" LimitBoucle="50" AbsoluteXPathQuery="/result">
+      <schemaTargets xmi:id="_Rgt44tnTEeK0b_luIXcC8w" RelativeXPathQuery="amount" TagName="amount"/>
+      <schemaTargets xmi:id="_Rgt449nTEeK0b_luIXcC8w" RelativeXPathQuery="balanceType" TagName="balanceType"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Rgt45NnTEeK0b_luIXcC8w" name="default" dataManager="_Rgt44NnTEeK0b_luIXcC8w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Rgt45dnTEeK0b_luIXcC8w" name="metadata" id="_KKKiENnTEeK0b_luIXcC8w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rgt45tnTEeK0b_luIXcC8w" name="amount" label="amount" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rgt459nTEeK0b_luIXcC8w" name="balanceType" label="balanceType" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

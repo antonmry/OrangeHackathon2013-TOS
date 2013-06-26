@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_qr78cNnZEeK0b_luIXcC8w" name="locationResponse" dataPackage="_qr78d9nZEeK0b_luIXcC8w" JSONFilePath="C:/Users/Anton/Desktop/getLocation.json" Encoding="UTF-8">
+    <schema xmi:id="_qr78cdnZEeK0b_luIXcC8w" LimitBoucle="50" AbsoluteXPathQuery="/result">
+      <schemaTargets xmi:id="_qr78ctnZEeK0b_luIXcC8w" RelativeXPathQuery="timestamp" TagName="timestamp"/>
+      <schemaTargets xmi:id="_qr78c9nZEeK0b_luIXcC8w" RelativeXPathQuery="altitude" TagName="altitude"/>
+      <schemaTargets xmi:id="_qr78dNnZEeK0b_luIXcC8w" RelativeXPathQuery="longitude" TagName="longitude"/>
+      <schemaTargets xmi:id="_qr78ddnZEeK0b_luIXcC8w" RelativeXPathQuery="latitude" TagName="latitude"/>
+      <schemaTargets xmi:id="_qr78dtnZEeK0b_luIXcC8w" RelativeXPathQuery="accuracy" TagName="accuracy"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qr78d9nZEeK0b_luIXcC8w" name="default" dataManager="_qr78cNnZEeK0b_luIXcC8w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qr8jgNnZEeK0b_luIXcC8w" name="metadata" id="_iW_DsNnZEeK0b_luIXcC8w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr8jgdnZEeK0b_luIXcC8w" name="timestamp" label="timestamp" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr8jgtnZEeK0b_luIXcC8w" name="altitude" label="altitude" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr8jg9nZEeK0b_luIXcC8w" name="longitude" label="longitude" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr8jhNnZEeK0b_luIXcC8w" name="latitude" label="latitude" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr8jhdnZEeK0b_luIXcC8w" name="accuracy" label="accuracy" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
